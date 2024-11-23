@@ -8,7 +8,7 @@ const Achievements = () => {
 
   return (
     <section className="bg-white py-12 text-[#000000]">
-      <div className="text-center mb-8 px-4 pt-[112px] pb-[112px] pl-[64px] pr-[64px] gap-[80px]">
+      <div className="text-center mb-8 px-4 pt-[112px] sm:mt-0 pb-[112px] pl-[64px] pr-[64px] gap-[80px]">
         <h2 className="text-4xl font-bold font-roboto mb-4">Our Achievements</h2>
         <p className="text-lg text-[#000000] font-roboto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.

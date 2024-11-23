@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Navbar */}
-      <div className="w-full bg-[#F7F7F7] py-2 px-4 border-b border-[#676767]">
+      <div className=" hidden sm:block w-full bg-[#F7F7F7] py-2 px-4 border-b border-[#676767]">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Left: Contact Info */}
           <div className="text-sm text-gray-700 flex items-center space-x-4">
