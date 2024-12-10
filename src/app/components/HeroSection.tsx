@@ -28,7 +28,6 @@ const HeroSection = () => {
           <Image
             src="/image.png" 
             alt="Hero"
-            layout="intrinsic"
             width={500} 
             height={500} 
             className="md:w-[640px] md:h-[600px] sm:w-[300px] sm:h-[300px] object-cover"
