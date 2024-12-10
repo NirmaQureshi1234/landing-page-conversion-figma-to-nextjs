@@ -26,7 +26,7 @@ const HeroSection = () => {
         {/* Right: Image Section */}
         <div className="w-full md:w-1/2 flex justify-end items-center p-0">
           <Image
-            src="/Image.png" 
+            src="/image.png" 
             alt="Hero"
             layout="intrinsic"
             width={500} 

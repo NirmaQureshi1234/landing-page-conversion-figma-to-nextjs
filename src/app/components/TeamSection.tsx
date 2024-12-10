@@ -62,7 +62,7 @@ const TeamSection = () => {
     {testimonials.map((testimonial, index) => (
       <div key={index} className="bg-[#F7F7F7] rounded-lg border-[#676767] border-[1px] pt-[64px] pb-[64px] pr-[32px] pl-[32px] text-center">
         <div className="mb-4">
-          <div className="flex justify-start mb-2 pl-7">
+           <div className="flex justify-start mb-2 pl-7">
             {[...Array(testimonial.rating)].map((_, i) => (
               <svg
                 key={i}
@@ -73,7 +73,9 @@ const TeamSection = () => {
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.168 3.588a1 1 0 00.95.691h3.764c.969 0 1.371 1.24.588 1.81l-3.035 2.205a1 1 0 00-.364 1.118l1.169 3.588c.3.921-.755 1.688-1.54 1.118l-3.035-2.205a1 1 0 00-1.175 0l-3.035 2.205c-.784.57-1.839-.197-1.54-1.118l1.169-3.588a1 1 0 00-.364-1.118L2.5 9.016c-.783-.57-.38-1.81.588-1.81h3.764a1 1 0 00.95-.691l1.168-3.588z" />
               </svg>
             ))}
-          </div>
+          </div> 
+
+ 
           <p className="text-gray-600 font-roboto">{testimonial.review}</p>
         </div>
         <div className="flex items-center justify-center">
